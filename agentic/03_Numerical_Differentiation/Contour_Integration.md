@@ -4,7 +4,7 @@
 Take a meromorphic function and integrate it around a
 closed loop $C$ in the complex plane. The residue theorem says
 
-$$\oint_C f(z)\,dz = 2\pi i \sum_k n(C, p_k)\,\mathrm{Res}_{p_k} f,$$
+$$\oint_C f(z) dz = 2\pi i \sum_k n(C, p_k) \mathrm{Res}_{p_k} f,$$
 
 where $n(C, p_k)$ counts how many times the loop winds around the pole $p_k$. The left
 side is a line integral you evaluate by parametrizing the path and calling a
